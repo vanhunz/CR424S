@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            NguyenCongNhatHuy_29214654999_CR424STheme {
+            NguyenCongNhatHuy_29214654999_CR424STheme(darkTheme = true, dynamicColor = false) {
                 WalletNavGraph()
             }
         }
